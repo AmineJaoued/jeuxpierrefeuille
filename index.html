@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>pierre feuille ciseaux</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="background-contain">
+            <div class="nameinput">
+               <h4>Entrer Votre Nom : </h4> <input type="text" placeholder="Entrer Voter Nom " class="nom" id="nom1">
+            </div>
+        </div>
+    </header>
+    <main>
+        <diV class="title-put">
+            <div>
+                <div class="title-h4">
+                    <h4>
+                        choisie une image
+                    </h4>
+                </div>
+                
+                <div>
+                    <img src="1.png" width="180px;" height="180px;" onclick="hide()" id="r">
+                    <img src="2.png" width="180px;" height="180px;" onclick="hide2()" id="h" >
+                    <img src="3.png" width="180px;" height="180px;"onclick="hide3()" id="s">
+                </div>
+            </div>
+                <div>
+                     <div class="title-h4">
+                        <h4>
+                             l'ordinateur
+                         </h4>
+                    </div>
+                    <div class="play">
+                            <img src="1.png" width="180px;" height="180px;" id="p1" >
+                            <img src="2.png" width="180px;" height="180px;" id="p2">
+                            <img src="3.png" width="180px;" height="180px;" id="p3">
+                        </div>
+                </div>
+                <div>
+                        <input type="reset" onclick="reset()">
+                </div>
+        </diV>
+    </main>
+</body>
+<footer>
+    <div class="footer-gangnat">
+        <div class="size"><p> Score est = <span id="score"></span></p></div>
+
+        <div class="size"><p> Le gangnat est = <span id="winner"></span></p></div>
+    </div>
+</footer>
+</html>
